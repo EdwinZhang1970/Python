@@ -15,9 +15,9 @@ from sklearn.linear_model import LinearRegression
 from sklearn.tree import DecisionTreeRegressor
 from sklearn.ensemble import RandomForestRegressor
 
-import load_data as myload
-import prepare_data as myprepare
-import train_model as mytrain
+from . import load_data as myload
+from . import prepare_data as myprepare
+from . import train_model as mytrain
 
 
 def myprint(message):
