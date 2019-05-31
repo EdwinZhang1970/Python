@@ -1,6 +1,6 @@
 
 "Netural Style Transfer" 
-是一个用Keras实现的，利用神经网络进行图像风格迁移的工具， GUI用tkiner完成。
+是一个用Keras实现的，利用神经网络进行图像风格迁移的工具， GUI用tkinter完成。
 
 keras 预训练模型的权重系数下载：
 
