@@ -140,7 +140,7 @@ def process_predict():
 
 if __name__ == "__main__":
     # 训练模型
-    # process_training_model()
+    process_training_model()
 
     # 执行预测
     process_predict()
