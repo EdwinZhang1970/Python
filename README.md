@@ -15,4 +15,4 @@ https://blog.csdn.net/superfanstoprogram/article/details/83713196
 https://blog.csdn.net/superfanstoprogram/article/details/90239343
 
 ## Boxman
-利用 tkinter.Canvas 实现的推箱子游戏, 可以参考game_maps.py 中的现有游戏场景设置方法，自己设计新的游戏关卡。 有兴趣的可自行扩展功能。
+利用 tkinter.Canvas 实现的推箱子游戏, 核心代码 play.py 精简为200多行，可以参考game_maps.py中的地图设置方式，自己设计新的游戏关卡。
