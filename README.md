@@ -14,3 +14,5 @@ https://blog.csdn.net/superfanstoprogram/article/details/83713196
 是一个用Keras实现的，利用神经网络进行图像风格迁移的工具， GUI用tkinter完成。可参考CSDN博客相关文章
 https://blog.csdn.net/superfanstoprogram/article/details/90239343
 
+## Boxman
+利用 tkinter.Canvas 实现的推箱子游戏, 可以参考game_maps.py 中的现有游戏场景设置方法，自己设计新的游戏关卡。 有兴趣的可自行扩展功能。
