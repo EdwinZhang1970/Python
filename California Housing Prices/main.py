@@ -96,9 +96,9 @@ def process_training_model():
     trainer.train_model()  # 若传入参数 True, 将显示所有参数组合的性能评分
 
     myprint("")
-    myprint("Training and compare models complete. ")
+    myprint("Training and compare complete models. ")
     myprint("All trained models are saved in folder 'trainmodels' with the same name you provided. ")
-    myprint("Please choose the best model for actual predict. Thanks ! ")
+    myprint("Please choose the best model for actual predict. Thanks! ")
     myprint("")
 
 
