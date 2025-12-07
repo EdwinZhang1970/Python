@@ -4,30 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fbd90401-8911-4925-9dea-563810e74b1d" name="Default" comment="增加虚拟环境的创建，并调整代码">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Python.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Python.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Boxman/.idea/Boxman.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Boxman/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Boxman/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Boxman/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/California Housing Prices/load_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/California Housing Prices/load_data.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/California Housing Prices/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/California Housing Prices/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/California Housing Prices/prepare_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/California Housing Prices/prepare_data.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/California Housing Prices/train_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/California Housing Prices/train_model.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/California Housing Prices/trainmodels/decision_model_1.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/California Housing Prices/trainmodels/decision_model_1.pkl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/California Housing Prices/trainmodels/lin_model_1.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/California Housing Prices/trainmodels/lin_model_1.pkl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/California Housing Prices/trainmodels/random_grid_1.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/California Housing Prices/trainmodels/random_grid_1.pkl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/California Housing Prices/trainmodels/random_model_1.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/California Housing Prices/trainmodels/random_model_1.pkl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/California Housing Prices/trainmodels/random_model_s1.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/California Housing Prices/trainmodels/random_model_s1.pkl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Netural Style Transfer/app/my.py" beforeDir="false" afterPath="$PROJECT_DIR$/Netural Style Transfer/app/my.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Netural Style Transfer/app/views/win_main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Netural Style Transfer/app/views/win_main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Netural Style Transfer/framework/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/Netural Style Transfer/framework/utils.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Netural Style Transfer/workspace/temp_result.png" beforeDir="false" afterPath="$PROJECT_DIR$/Netural Style Transfer/workspace/temp_result.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-    </list>
+    <list default="true" id="fbd90401-8911-4925-9dea-563810e74b1d" name="Default" comment="调整代码" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -228,7 +205,15 @@
       <option name="project" value="LOCAL" />
       <updated>1765069988122</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="调整代码">
+      <option name="closed" value="true" />
+      <created>1765113686499</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1765113686499</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -236,6 +221,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="增加虚拟环境的创建，并调整代码" />
-    <option name="LAST_COMMIT_MESSAGE" value="增加虚拟环境的创建，并调整代码" />
+    <MESSAGE value="调整代码" />
+    <option name="LAST_COMMIT_MESSAGE" value="调整代码" />
   </component>
 </project>
