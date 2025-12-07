@@ -1,3 +1,18 @@
-.git/
-.idea/
-*/idea/
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+*.spec
+
+# Virtual environments
+.venv
+.idea
+.models
+.whl
+output
+input
+libs
+

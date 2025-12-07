@@ -59,7 +59,7 @@ class App:
 			.pack(side=tk.LEFT, expand=tk.YES, anchor=tk.CENTER, padx=5)
 		tk.Button(canvas, text="多组件演示", bg="cadetblue", command=self.show_multi, font=ft2, height=2, fg="white", width=15)\
 			.pack(side=tk.LEFT, expand=tk.YES, anchor=tk.CENTER, padx=5)
-		tk.Button(canvas, text="应用平台界面", bg="cadetblue", command=self.show_ai, font=ft2, height=2, fg="white", width=15)\
+		tk.Button(canvas, text="应用界面演示", bg="cadetblue", command=self.show_ai, font=ft2, height=2, fg="white", width=15)\
 			.pack(side=tk.RIGHT, expand=tk.YES, anchor=tk.CENTER, padx=5)
 
 	def show_title(self, *args):

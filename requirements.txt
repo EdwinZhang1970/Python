@@ -1,0 +1,9 @@
+pygame==1.9.4
+pillow==5.3.0
+tensorflow==1.12.0
+keras==2.1.2
+numpy==1.15.4
+matplotlib==3.0.1
+pandas==0.23.4
+scipy==1.1.0
+opencv-python==3.4.1.15

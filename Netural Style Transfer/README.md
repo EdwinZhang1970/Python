@@ -8,10 +8,5 @@ https://pan.baidu.com/s/1pYEKpQ48TabncoMy2btBLQ
 提取码: rao4
 
 
-开发环境中主要的库版本：
-* tensorflow==1.12.0
-* keras==2.1.2
-* numpy==1.15.4
-* scipy==1.1.0
-* cv2==3.3.0.10
-* PIL==5.3.0
+下载后的模型文件，请复制到用户目录下的 .keras\models 中，
+如： C:\Users\Edwin\.keras\models
