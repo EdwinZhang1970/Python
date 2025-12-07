@@ -4,24 +4,29 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fbd90401-8911-4925-9dea-563810e74b1d" name="Default" comment="">
+    <list default="true" id="fbd90401-8911-4925-9dea-563810e74b1d" name="Default" comment="增加虚拟环境的创建，并调整代码">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/Python.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Python.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Boxman/play.py" beforeDir="false" afterPath="$PROJECT_DIR$/Boxman/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/California Housing Prices/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/California Housing Prices/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Netural Style Transfer/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Netural Style Transfer/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Netural Style Transfer/run.bat" beforeDir="false" afterPath="$PROJECT_DIR$/Netural Style Transfer/run.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Boxman/.idea/Boxman.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Boxman/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Boxman/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Boxman/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/California Housing Prices/load_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/California Housing Prices/load_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/California Housing Prices/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/California Housing Prices/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/California Housing Prices/prepare_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/California Housing Prices/prepare_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/California Housing Prices/train_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/California Housing Prices/train_model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/California Housing Prices/trainmodels/decision_model_1.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/California Housing Prices/trainmodels/decision_model_1.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/California Housing Prices/trainmodels/lin_model_1.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/California Housing Prices/trainmodels/lin_model_1.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/California Housing Prices/trainmodels/random_grid_1.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/California Housing Prices/trainmodels/random_grid_1.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/California Housing Prices/trainmodels/random_model_1.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/California Housing Prices/trainmodels/random_model_1.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/California Housing Prices/trainmodels/random_model_s1.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/California Housing Prices/trainmodels/random_model_s1.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Netural Style Transfer/app/my.py" beforeDir="false" afterPath="$PROJECT_DIR$/Netural Style Transfer/app/my.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Netural Style Transfer/app/views/win_main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Netural Style Transfer/app/views/win_main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Netural Style Transfer/framework/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/Netural Style Transfer/framework/utils.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Netural Style Transfer/workspace/temp_result.png" beforeDir="false" afterPath="$PROJECT_DIR$/Netural Style Transfer/workspace/temp_result.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tkinter-pack Demo/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tkinter-pack Demo/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tkinter-pack Demo/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tkinter-pack Demo/.idea/tkinter-pack Demo.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tkinter-pack Demo/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tkinter-pack Demo/app.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tkinter-pack Demo/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/tkinter-pack Demo/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,28 +39,30 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="36UkjVCzoZomAscL9Fuu9XQKZvE" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.main (1).executor": "Run",
-    "Python.main (2).executor": "Run",
-    "Python.main.executor": "Run",
-    "Python.play.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "D:/Edwin_Git/我的博客/MyGitHub/Python",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.main (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.main (2).executor&quot;: &quot;Run&quot;,
+    &quot;Python.main (3).executor&quot;: &quot;Run&quot;,
+    &quot;Python.main (4).executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.play.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Edwin_Git/我的博客/MyGitHub/Python&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Python.main (2)">
+}</component>
+  <component name="RunManager" selected="Python.main (4)">
     <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python" />
       <option name="ENV_FILES" value="" />
@@ -92,6 +99,50 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tkinter-pack Demo/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main (3)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Netural Style Transfer" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Netural Style Transfer/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main (4)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/California Housing Prices" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/California Housing Prices/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -146,10 +197,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.main (2)" />
+        <item itemvalue="Python.main (4)" />
+        <item itemvalue="Python.main" />
         <item itemvalue="Python.main (1)" />
-        <item itemvalue="Python.main" />
-        <item itemvalue="Python.main" />
+        <item itemvalue="Python.main (3)" />
+        <item itemvalue="Python.main (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -168,9 +220,22 @@
       <option name="presentableId" value="Default" />
       <updated>1535769139633</updated>
     </task>
+    <task id="LOCAL-00001" summary="增加虚拟环境的创建，并调整代码">
+      <option name="closed" value="true" />
+      <created>1765069988122</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1765069988122</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="增加虚拟环境的创建，并调整代码" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加虚拟环境的创建，并调整代码" />
   </component>
 </project>

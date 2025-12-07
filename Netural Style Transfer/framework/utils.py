@@ -140,6 +140,7 @@ def get_cfd(__f):
     """
     return os.path.dirname(os.path.abspath(__f))
 
+
 def get_all_files(folder_name, exts=None):
     """
     获得某目录下，指定扩展名的所有文件列表
@@ -199,19 +200,9 @@ def file_extension(filename):
     return os.path.splitext(filename)[1]
 
 
-def to_md5(source):
-    """ 将字符串加密为 md5
-        text： string
-    """
-    from Crypto.Hash import MD5
-    md5 = MD5.new()
-    md5.update(bytes(source, encoding="utf8"))
-    return md5.hexdigest()
-
-
 def reverse_rgb_bgr(img):
     """ 改变一个图像的通道类型：rgb <--> bgr
-    :param img (ndarray) : [width, height, channel=3]
+    :params img (ndarray) : [width, height, channel=3]
     :return: rgb-->bgr,  bgr-->rgb
     """
     return img[:, :, ::-1]

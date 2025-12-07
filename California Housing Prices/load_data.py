@@ -27,32 +27,32 @@ class FetchFileData:
     """
     说明: 用于下载指定url的具体文件内容
     """
-    def __init__(self, url, localpath=".", filename="", extractfile=True):
+    def __init__(self, url, local_path=".", filename="", extractfile=True):
         """
         输入值:
             url         : 完整的文件下载url, 含文件名, 本例只支持释放.tgz 文件，
                           根据项目需要，可调整代码，以便处理其他文件
-            localpath   : 文件下载以及释放后的文件存放的本地目录，可以是相对目录名,若为"" 或 ".", 则为当前目录
+            local_path   : 文件下载以及释放后的文件存放的本地目录，可以是相对目录名,若为"" 或 ".", 则为当前目录
             filename    : 本地保存的 .tgz 文件名，若为空，则为url中的文件名
-            extractfile : True : 执行释放文件的操作，目前只支持tgz ; False : 不执行释放文件的操作; 缺省为Fasle
+            extractfile : True : 执行释放文件的操作，目前只支持tgz ; False : 不执行释放文件的操作; 缺省为False
         """
         self.url = url
 
-        if localpath == "":
-            localpath = "."
-        self.localpath = localpath
+        if local_path == "":
+            local_path = "."
+        self.local_path = local_path
 
         if filename == "":
             filename = os.path.split(url)[1]
         self.filename = filename
 
-        self.extname = os.path.splitext(self.filename)[1]
+        self.ext_name = os.path.splitext(self.filename)[1]
 
         self.extractfile = extractfile
-        self.local_filename = os.path.join(self.localpath, self.filename)
+        self.local_filename = os.path.join(self.local_path, self.filename)
 
-    def schedule(self, blocknum, blocksize, totalsize):
-        per = 100.0 * blocknum * blocksize / totalsize
+    def schedule(self, block_num, block_size, total_size):
+        per = 100.0 * block_num * block_size / total_size
         if per > 100:
             per = 100
         myprint("Current download percentage : %.2f%%" % per)
@@ -61,8 +61,8 @@ class FetchFileData:
         """
         单独使用，可实现下载指定文件内容
         """
-        if not os.path.exists(self.localpath):
-            os.makedirs(self.localpath)
+        if not os.path.exists(self.local_path):
+            os.makedirs(self.local_path)
         try:
             urllib.request.urlretrieve(self.url, self.local_filename, self.schedule)
             return True
@@ -75,9 +75,9 @@ class FetchFileData:
         单独使用，可实现释放指定的 .tgz 文件
         """
         if os.path.exists(self.local_filename):
-            tgzresult = tarfile.open(self.local_filename)
-            tgzresult.extractall(path=self.localpath)
-            tgzresult.close()
+            tgz_result = tarfile.open(self.local_filename)
+            tgz_result.extractall(path=self.local_path)
+            tgz_result.close()
         else:
             myprint(self.local_filename + " is not exists !")
 
@@ -90,7 +90,7 @@ class FetchFileData:
             return None
 
         # 根据设置，释放 .tgz 文件
-        if self.extractfile and self.extname.lower() == ".tgz":
+        if self.extractfile and self.ext_name.lower() == ".tgz":
             self.extract_tgz_file()
 
         return self.local_filename
@@ -98,7 +98,7 @@ class FetchFileData:
 
 class DataLoader:
     URL = "https://raw.githubusercontent.com/ageron/handson-ml/master/datasets/housing/housing.tgz"
-    LOCALPATH = "datasets"
+    DATASETS_DIR = "datasets"
     FILENAME_ALL_SET = "datasets\\housing.csv"
     FILENAME_TRAIN_SET = "datasets\\train_set.csv"
     FILENAME_TEST_SET = "datasets\\test_set.csv"
@@ -106,6 +106,11 @@ class DataLoader:
     def __init__(self):
         self.train_set = None
         self.test_set = None
+
+    def download_training_data(self):
+        # 若训练数据不存在，则先下载训练数据
+        if not os.path.exists(self.FILENAME_ALL_SET):
+            FetchFileData(self.URL, self.DATASETS_DIR).fetch_data()
 
     def load_all_set(self):
         """
@@ -115,8 +120,7 @@ class DataLoader:
         返回值:
             原始数据集: pandas.DataFrame
         """
-        if not os.path.exists(self.FILENAME_ALL_SET):
-            FetchFileData(self.URL, self.LOCALPATH).fetch_data()
+        self.download_training_data()
 
         # 有可能没有下载成功，因此打开文件前，仍需要再判断一次
         if os.path.exists(self.FILENAME_ALL_SET):

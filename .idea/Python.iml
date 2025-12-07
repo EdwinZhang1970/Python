@@ -5,4 +5,7 @@
     <orderEntry type="jdk" jdkName="Python 3.6 (Python)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
+  <component name="PackageRequirementsSettings">
+    <option name="requirementsPath" value="" />
+  </component>
 </module>

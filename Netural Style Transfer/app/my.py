@@ -10,6 +10,7 @@ from .res.colors import Color
 
 session = dict()
 
+
 def img(img_name):
     """ 传入文件名，返回完整的图片路径 """
     return os.path.join(Setting.APP_DIR, "res\\images\\", img_name)

@@ -28,7 +28,7 @@ class DataFrameSelector(BaseEstimator, TransformerMixin):
     """
         说明：
             这是一个自定义的转换器，用于将 DataFrame 中的指定列的数据取出，
-            返回 np.ndarry 数据后，往下继续进行处理
+            返回 np.ndarray 数据后，往下继续进行处理
     """
     def __init__(self, attribute_names):
         self.attribute_names = attribute_names

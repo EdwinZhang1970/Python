@@ -26,7 +26,6 @@ import tensorflow as tf
 from framework import tk_utils as tku
 from framework import utils
 from app import my
-
 from app.my import session
 from app.my import img
 from app.my import Color
@@ -44,6 +43,7 @@ iterations = 5
 
 style_weight = 1.
 content_weight = 0.025
+
 
 def preprocess_image(image_path, img_height, img_width):
     img = load_img(image_path, target_size=(img_height, img_width))
@@ -91,10 +91,9 @@ def total_variation_loss(x, img_height, img_width):
 
 
 class Evaluator(object):
-
     def __init__(self, img_height, img_width, fetch_loss_and_grads):
         self.loss_value = None
-        self.grads_values = None
+        self.grad_values = None
         self.img_height = img_height
         self.img_width = img_width
         self.fetch_loss_and_grads = fetch_loss_and_grads
@@ -139,9 +138,9 @@ class App(tku.WinBase):
 
         self.lay_bottom(self.win).pack(fill=tk.X)
 
-        self.txtIterations.insert('end', iterations)
-        self.txtContent.insert('end', content_weight)
-        self.txtStyle.insert('end', style_weight)
+        self.txtIterations.insert('end', str(iterations))
+        self.txtContent.insert('end', str(content_weight))
+        self.txtStyle.insert('end', str(style_weight))
         return self.win
 
     def lay_title(self, parent):
@@ -202,7 +201,7 @@ class App(tku.WinBase):
             .pack(side=tk.RIGHT, fill=tk.X, padx=20)
 
         frame.propagate(True)
-        frame.pack_propagate(0)
+        frame.pack_propagate(False)
         return frame
 
     def lay_result_image(self, parent):
