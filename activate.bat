@@ -1,2 +1,2 @@
 chcp 65001 
-D:\Edwin_Git\ÎÒµÄ²©¿Í\MyGitHub\Python\.venv\scripts\activate 
+D:\Edwin_Git\æˆ‘çš„åšå®¢\MyGitHub\Python\.venv\scripts\activate
