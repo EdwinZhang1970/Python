@@ -53,4 +53,4 @@ https://pan.baidu.com/s/1pYEKpQ48TabncoMy2btBLQ
 提取码: rao4
 
 下载后的模型参数文件，请复制到用户目录下的 .keras\models 中，以便keras进行读取
-如： C:\Users\Edwin\.keras\models
+如： C:\Users\Edwin\\.keras\models
