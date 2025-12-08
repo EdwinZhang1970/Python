@@ -22,9 +22,9 @@ from train_model import TrainModel, GridSearchModel
 warnings.filterwarnings("ignore", category=DeprecationWarning)
 warnings.filterwarnings("ignore", category=FutureWarning)
 
-
-CURRENT_DIR = os.path.dirname(__file__)
-VENV_DIR = os.path.join(os.path.dirname(os.path.dirname(__file__)), ".venv", "Scripts")
+# 通过当前文件的绝对路径，获得相关目录信息
+CURRENT_DIR = os.path.dirname(os.path.abspath(__file__))
+VENV_DIR = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), ".venv", "Scripts")
 
 
 class App:

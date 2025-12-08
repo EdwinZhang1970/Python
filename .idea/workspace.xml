@@ -4,127 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fbd90401-8911-4925-9dea-563810e74b1d" name="Default" comment="调整代码">
-      <change afterPath="$PROJECT_DIR$/boxman/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/california_housing_prices/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/california_housing_prices/california_data_prepare.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/california_housing_prices/datasets/housing.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/california_housing_prices/datasets/housing.tgz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/california_housing_prices/datasets/test_set.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/california_housing_prices/datasets/train_set.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/california_housing_prices/datasource/housing/housing.tgz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/california_housing_prices/load_data.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/california_housing_prices/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/california_housing_prices/prepare_data.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/california_housing_prices/train_model.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tkinter_pack_demo/tkutils.py" afterDir="false" />
+    <list default="true" id="fbd90401-8911-4925-9dea-563810e74b1d" name="Default" comment="调整目录名，去除空格；增加jupyter notebook 的调用">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Boxman/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Boxman/game_maps.py" beforeDir="false" afterPath="$PROJECT_DIR$/boxman/game_maps.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Boxman/images/Destination.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/boxman/images/Destination.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Boxman/images/W_down.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/boxman/images/W_down.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Boxman/images/WorkerInDest.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/boxman/images/WorkerInDest.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Boxman/images/batch_resize.py" beforeDir="false" afterPath="$PROJECT_DIR$/boxman/images/batch_resize.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Boxman/images/box.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/boxman/images/box.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Boxman/images/passageway.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/boxman/images/passageway.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Boxman/images/redbox.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/boxman/images/redbox.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Boxman/images/restart.png" beforeDir="false" afterPath="$PROJECT_DIR$/boxman/images/restart.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Boxman/images/restart2.png" beforeDir="false" afterPath="$PROJECT_DIR$/boxman/images/restart2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Boxman/images/w_down_in.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/boxman/images/w_down_in.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Boxman/images/w_left.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/boxman/images/w_left.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Boxman/images/w_left_in.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/boxman/images/w_left_in.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Boxman/images/w_right.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/boxman/images/w_right.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Boxman/images/w_right_in.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/boxman/images/w_right_in.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Boxman/images/w_up.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/boxman/images/w_up.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Boxman/images/w_up_in.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/boxman/images/w_up_in.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Boxman/images/wall.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/boxman/images/wall.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Boxman/images/worker.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/boxman/images/worker.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Boxman/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/boxman/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Boxman/run.bat" beforeDir="false" afterPath="$PROJECT_DIR$/boxman/run.bat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/California Housing Prices/.idea/California Housing Prices.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/California Housing Prices/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/California Housing Prices/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/California Housing Prices/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/California Housing Prices/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/California Housing Prices/california housing prices.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/California Housing Prices/datasets/housing.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/California Housing Prices/datasets/housing.tgz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/California Housing Prices/datasets/test_set.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/California Housing Prices/datasets/train_set.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/California Housing Prices/datasource/housing/housing.tgz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/California Housing Prices/load_data.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/California Housing Prices/main.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/California Housing Prices/prepare_data.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/California Housing Prices/tkutils.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/California Housing Prices/train_model.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/California Housing Prices/trainmodels/decision_model_1.pkl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/California Housing Prices/trainmodels/lin_model_1.pkl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/California Housing Prices/trainmodels/random_grid_1.pkl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/California Housing Prices/trainmodels/random_model_1.pkl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/California Housing Prices/trainmodels/random_model_s1.pkl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Netural Style Transfer/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Netural_Style_Transfer/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Netural Style Transfer/app/my.py" beforeDir="false" afterPath="$PROJECT_DIR$/Netural_Style_Transfer/app/my.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Netural Style Transfer/app/res/colors.py" beforeDir="false" afterPath="$PROJECT_DIR$/Netural_Style_Transfer/app/res/colors.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Netural Style Transfer/app/res/consts.py" beforeDir="false" afterPath="$PROJECT_DIR$/Netural_Style_Transfer/app/res/consts.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Netural Style Transfer/app/res/fonts.py" beforeDir="false" afterPath="$PROJECT_DIR$/Netural_Style_Transfer/app/res/fonts.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Netural Style Transfer/app/res/images/001.png" beforeDir="false" afterPath="$PROJECT_DIR$/Netural_Style_Transfer/app/res/images/001.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Netural Style Transfer/app/res/images/Money.ico" beforeDir="false" afterPath="$PROJECT_DIR$/Netural_Style_Transfer/app/res/images/Money.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Netural Style Transfer/app/res/images/bg1.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/Netural_Style_Transfer/app/res/images/bg1.PNG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Netural Style Transfer/app/res/images/bg2.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/Netural_Style_Transfer/app/res/images/bg2.PNG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Netural Style Transfer/app/res/images/close.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/Netural_Style_Transfer/app/res/images/close.PNG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Netural Style Transfer/app/res/images/flower.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Netural_Style_Transfer/app/res/images/flower.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Netural Style Transfer/app/res/images/img_title.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/Netural_Style_Transfer/app/res/images/img_title.PNG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Netural Style Transfer/app/res/images/python.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/Netural_Style_Transfer/app/res/images/python.PNG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Netural Style Transfer/app/res/images/style.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/Netural_Style_Transfer/app/res/images/style.JPG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Netural Style Transfer/app/res/images/style_flower.png" beforeDir="false" afterPath="$PROJECT_DIR$/Netural_Style_Transfer/app/res/images/style_flower.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Netural Style Transfer/app/res/images/user.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/Netural_Style_Transfer/app/res/images/user.PNG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Netural Style Transfer/app/res/strings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Netural_Style_Transfer/app/res/strings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Netural Style Transfer/app/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Netural_Style_Transfer/app/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Netural Style Transfer/app/views/win_main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Netural_Style_Transfer/app/views/win_main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Netural Style Transfer/framework/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Netural_Style_Transfer/framework/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Netural Style Transfer/framework/python.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/Netural_Style_Transfer/framework/python.PNG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Netural Style Transfer/framework/tk_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/Netural_Style_Transfer/framework/tk_utils.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Netural Style Transfer/framework/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/Netural_Style_Transfer/framework/utils.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Netural Style Transfer/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Netural_Style_Transfer/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Netural Style Transfer/run.bat" beforeDir="false" afterPath="$PROJECT_DIR$/Netural_Style_Transfer/run.bat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Netural Style Transfer/workspace/bijiasuo.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/Netural_Style_Transfer/workspace/bijiasuo.JPG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Netural Style Transfer/workspace/bijiasuo2.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/Netural_Style_Transfer/workspace/bijiasuo2.JPG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Netural Style Transfer/workspace/dafenqi.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/Netural_Style_Transfer/workspace/dafenqi.JPG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Netural Style Transfer/workspace/dafenqi2.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/Netural_Style_Transfer/workspace/dafenqi2.JPG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Netural Style Transfer/workspace/dafenqi3.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/Netural_Style_Transfer/workspace/dafenqi3.JPG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Netural Style Transfer/workspace/fangao.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/Netural_Style_Transfer/workspace/fangao.JPG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Netural Style Transfer/workspace/fangao2.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/Netural_Style_Transfer/workspace/fangao2.JPG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Netural Style Transfer/workspace/flower.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Netural_Style_Transfer/workspace/flower.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Netural Style Transfer/workspace/style_transfer_20190515150337.png" beforeDir="false" afterPath="$PROJECT_DIR$/Netural_Style_Transfer/workspace/style_transfer_20190515150337.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Netural Style Transfer/workspace/style_transfer_20190515153532.png" beforeDir="false" afterPath="$PROJECT_DIR$/Netural_Style_Transfer/workspace/style_transfer_20190515153532.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Netural Style Transfer/workspace/style_transfer_20220116214552.png" beforeDir="false" afterPath="$PROJECT_DIR$/Netural_Style_Transfer/workspace/style_transfer_20220116214552.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Netural Style Transfer/workspace/style_transfer_20220116214712.png" beforeDir="false" afterPath="$PROJECT_DIR$/Netural_Style_Transfer/workspace/style_transfer_20220116214712.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Netural Style Transfer/workspace/style_transfer_20220821155449.png" beforeDir="false" afterPath="$PROJECT_DIR$/Netural_Style_Transfer/workspace/style_transfer_20220821155449.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Netural Style Transfer/workspace/style_transfer_20220821155646.png" beforeDir="false" afterPath="$PROJECT_DIR$/Netural_Style_Transfer/workspace/style_transfer_20220821155646.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Netural Style Transfer/workspace/style_transfer_20220821155959.png" beforeDir="false" afterPath="$PROJECT_DIR$/Netural_Style_Transfer/workspace/style_transfer_20220821155959.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Netural Style Transfer/workspace/style_transfer_20220821160057.png" beforeDir="false" afterPath="$PROJECT_DIR$/Netural_Style_Transfer/workspace/style_transfer_20220821160057.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Netural Style Transfer/workspace/style_transfer_20251206225854.png" beforeDir="false" afterPath="$PROJECT_DIR$/Netural_Style_Transfer/workspace/style_transfer_20251206225854.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Netural Style Transfer/workspace/style_transfer_20251207092945.png" beforeDir="false" afterPath="$PROJECT_DIR$/Netural_Style_Transfer/workspace/style_transfer_20251207092945.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Netural Style Transfer/workspace/temp_result.png" beforeDir="false" afterPath="$PROJECT_DIR$/Netural_Style_Transfer/workspace/temp_result.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/activate.bat" beforeDir="false" afterPath="$PROJECT_DIR$/activate.bat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/setup.bat" beforeDir="false" afterPath="$PROJECT_DIR$/setup.bat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tkinter-pack Demo/images/001.png" beforeDir="false" afterPath="$PROJECT_DIR$/tkinter_pack_demo/images/001.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tkinter-pack Demo/images/Money.ico" beforeDir="false" afterPath="$PROJECT_DIR$/tkinter_pack_demo/images/Money.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tkinter-pack Demo/images/bg1.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/tkinter_pack_demo/images/bg1.PNG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tkinter-pack Demo/images/bg2.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/tkinter_pack_demo/images/bg2.PNG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tkinter-pack Demo/images/close.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/tkinter_pack_demo/images/close.PNG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tkinter-pack Demo/images/img_title.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/tkinter_pack_demo/images/img_title.PNG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tkinter-pack Demo/images/python.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/tkinter_pack_demo/images/python.PNG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tkinter-pack Demo/images/user.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/tkinter_pack_demo/images/user.PNG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tkinter-pack Demo/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/tkinter_pack_demo/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tkinter-pack Demo/run.bat" beforeDir="false" afterPath="$PROJECT_DIR$/tkinter_pack_demo/run.bat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tkinter-pack Demo/tkutils.py" beforeDir="false" afterPath="$PROJECT_DIR$/california_housing_prices/tkutils.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tkinter-pack Demo/win_ai.py" beforeDir="false" afterPath="$PROJECT_DIR$/tkinter_pack_demo/win_ai.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tkinter-pack Demo/win_multi.py" beforeDir="false" afterPath="$PROJECT_DIR$/tkinter_pack_demo/win_multi.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tkinter-pack Demo/win_multi2.py" beforeDir="false" afterPath="$PROJECT_DIR$/tkinter_pack_demo/win_multi2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tkinter-pack Demo/win_single.py" beforeDir="false" afterPath="$PROJECT_DIR$/tkinter_pack_demo/win_single.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/california_housing_prices/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/california_housing_prices/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -335,12 +217,21 @@
       <option name="project" value="LOCAL" />
       <updated>1765113686499</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="调整目录名，去除空格；增加jupyter notebook 的调用">
+      <option name="closed" value="true" />
+      <created>1765179820175</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1765179820175</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="增加虚拟环境的创建，并调整代码" />
     <MESSAGE value="调整代码" />
-    <option name="LAST_COMMIT_MESSAGE" value="调整代码" />
+    <MESSAGE value="调整目录名，去除空格；增加jupyter notebook 的调用" />
+    <option name="LAST_COMMIT_MESSAGE" value="调整目录名，去除空格；增加jupyter notebook 的调用" />
   </component>
 </project>
