@@ -1,5 +1,6 @@
 # Python-generated files
 **/__pycache__/
+**/.idea/
 *.py[oc]
 build/
 dist/
@@ -10,7 +11,6 @@ wheels/
 
 # Virtual environments
 .venv
-.idea
 .models
 .whl
 output
