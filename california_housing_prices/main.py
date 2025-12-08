@@ -7,13 +7,13 @@
 # ******************************************************************************
 import warnings
 import os
+import subprocess
 import tkinter as tk
 import tkutils as tku
 import numpy as np
 from sklearn.linear_model import LinearRegression
 from sklearn.tree import DecisionTreeRegressor
 from sklearn.ensemble import RandomForestRegressor
-
 from load_data import DataLoader
 from prepare_data import PrepareData
 from train_model import TrainModel, GridSearchModel
@@ -23,12 +23,16 @@ warnings.filterwarnings("ignore", category=DeprecationWarning)
 warnings.filterwarnings("ignore", category=FutureWarning)
 
 
+CURRENT_DIR = os.path.dirname(__file__)
+VENV_DIR = os.path.join(os.path.dirname(os.path.dirname(__file__)), ".venv", "Scripts")
+
+
 class App:
     def __init__(self):
         self.root = tk.Tk()
         self.root.geometry("%dx%d" % (680, 100))   # 窗体尺寸
         tku.center_window(self.root)               # 将窗体移动到屏幕中央
-        self.root.title("California Housing Process")
+        self.root.title("california_housing_prices Housing Process")
         self.root.resizable(False, False)          # 设置窗体不可改变大小
         self.no_title = True
         self.but_download = None
@@ -42,7 +46,7 @@ class App:
         self.but_download.pack(side=tk.LEFT, padx=10)
         self.but_download.configure(command=do_download_data)
 
-        self.but_prepare = tk.Button(self.root, text="预处理数据", height=2, width=20)
+        self.but_prepare = tk.Button(self.root, text="数据处理演示", height=2, width=20)
         self.but_prepare.pack(side=tk.LEFT, padx=10)
         self.but_prepare.configure(command=do_prepare_data)
 
@@ -100,7 +104,10 @@ def do_prepare_data():
     实际数据预处理，在模型训练时，会自动处理
     :return:
     """
-    pass
+    note_book_path = os.path.join(CURRENT_DIR, "california_data_prepare.ipynb")
+    command_line = VENV_DIR + "\\" + "jupyter notebook " + note_book_path
+    subprocess.Popen(command_line, creationflags=subprocess.CREATE_NEW_CONSOLE)
+    tku.show_info("在Jupyter Notebook 界面中，请设置 Kernel 为 env_python367，以便让代码可正常执行！ ")
 
 
 def do_training_model():

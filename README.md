@@ -22,7 +22,7 @@ https://blog.csdn.net/superfanstoprogram/article/details/90239343
 # 二. 安装说明
 该项目用的Python版本是 3.6.7; 根据以下安装说明创建虚拟环境后，可直接运行
 
-1. 下载并安装 [Python 3.6.7](https://www.python.org/downloads/windows)。
+1. 下载并安装 64位的 [Python 3.6.7](https://www.python.org/downloads/windows)。（一定是 64位的安装文件，文件名为：python-3.6.7-amd64.exe， .resource 目录中准备了一份）
 
 2. 复制所有源代码到本地目录
 
@@ -30,13 +30,21 @@ https://blog.csdn.net/superfanstoprogram/article/details/90239343
     ```
     if not defined PYTHON (set PYTHON="C:\Program Files\Python36\python.exe")
     ```
+
 - 打开命令行窗口，并定位以上源代码目录
 
   **小技巧：** 用资源管理器定位以上目录，然后清空地址栏，输入 cmd , 按回车，可打开命令行窗口，并定位当前目录
 
+  
+
 - 在命令行窗口中，运行 setup.bat, 完成虚拟环境的搭建和依赖模块的安装
+  **注意：安装时，若本机没有安装Rust, 可能出现一个安装报错，不用理会**
+
+  
 
 - 运行相关子目录下的 run.bat，可启动相应程序
+
+    
 
 
 # 三. keras 预训练模型的权重系数下载：
